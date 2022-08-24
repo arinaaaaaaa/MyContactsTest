@@ -37,7 +37,7 @@
 .contactsSection {
   background-color: #39374c;
   flex-grow: 1;
-  max-height: 90%;
+  max-height: 92%;
   margin: 40px 0 0;
   border-radius: 15px;
   padding: 40px 30px;
@@ -74,6 +74,7 @@
   grid-template-columns: repeat(3, 1fr);
   margin: 25px 0 0;
   overflow-y: scroll;
+  height: inherit;
   max-height: inherit;
 }
 .contactsList > * { width: 1fr;}

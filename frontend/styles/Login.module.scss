@@ -1,0 +1,60 @@
+.pageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.formContainer {
+    width: fit-content;
+    background-color: #585a69;
+    padding: 30px;
+    border-radius: 15px;
+}
+.logo {
+    text-align: center;
+    font-family: 'Bai-Bold';
+    font-size: 27px;
+    color: #c9c8d6;
+}
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin: 35px 0 20px;
+}
+.loginForm input {
+    height: 45px;
+    width: 420px;
+    border-radius: 5px;
+    outline: none;
+    padding: 0 15px;
+    border: 2px;
+    font-family: inherit;
+    font-size: 14px;
+}
+.loginForm button {
+    height: 45px;
+    border-radius: 5px;
+    margin: 15px 0 0;
+    background-color: #dcfc34;
+    font-size: 16px;
+    font-family: 'Bai-Bold';
+    color: #585a69;
+    transition: all .2s;
+}
+.loginForm button:hover {
+    box-shadow: 0 0 10px #dcfc34;
+    color: #302f3d;
+}
+.join {
+    color: #c9c8d6;
+    font-family: 'Bai-Light';
+}
+.join a { 
+    font-family: 'Bai-Bold';
+    color: #dcfc34;
+    font-size: 16px;
+    transition: .2s;
+}
+.join a:hover { color: #c23fad; }
