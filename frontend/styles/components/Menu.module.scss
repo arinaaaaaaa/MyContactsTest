@@ -1,0 +1,30 @@
+.menuContainer {
+    width: 25vw;
+    height: 100vh;
+    position: fixed;
+    background-color: #39374c;
+    padding: 40px 30px;
+    color: #c9c8d6;
+}
+.logo {
+    font-family: 'Bai-Bold';
+    font-size: 27px;
+}
+.menuList { margin: 60px 0 0;}
+.menuItem {
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #dcfc34;
+    color: #39374c;
+    cursor: pointer;
+    transition: all .2s;
+}
+.menuItem:hover { box-shadow: 0 0 20px #dcfc34;}
+.menuItem p {
+    font-family: 'Bai-Medium';
+    font-size: 18px;
+}
+.menuItem img { width: 24px;}
