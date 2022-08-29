@@ -36,6 +36,7 @@ html, body {
   scroll-behavior: smooth;
   background-color: #302f3d;
   font-family: 'Bai-Medium';
+  overflow: scroll;
 }
 input, button, textarea { font-family: inherit; }
 input::-ms-clear { display: none; }

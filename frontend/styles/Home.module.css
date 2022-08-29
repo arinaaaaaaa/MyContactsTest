@@ -34,7 +34,7 @@
 }
 .userInfo button:hover { box-shadow: 0 0 10px #dcfc34; }
 
-.contactsSection {
+.contactsSection, .editSection {
   background-color: #39374c;
   flex-grow: 1;
   max-height: 92%;
@@ -68,13 +68,13 @@
   color: #39374c;
 }
 .contactsList {
-  display: grid;
-  column-gap: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   row-gap: 15px;
-  grid-template-columns: repeat(3, 1fr);
   margin: 25px 0 0;
   overflow-y: scroll;
   height: inherit;
   max-height: inherit;
 }
-.contactsList > * { width: 1fr;}
+.editSection { overflow-y: scroll;}
